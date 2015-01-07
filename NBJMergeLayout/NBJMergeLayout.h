@@ -10,7 +10,7 @@
 
 #if TARGET_OS_IPHONE
 
-@import UIKit;
+//@import UIKit;
 #define View UIView
 
 #else
