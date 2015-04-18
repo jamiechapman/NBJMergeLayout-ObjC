@@ -8,8 +8,6 @@
 
 #include "TargetConditionals.h"
 
-#if TARGET_OS_IPHONE
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #define View UIView
