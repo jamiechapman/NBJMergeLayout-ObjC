@@ -10,15 +10,10 @@
 
 #if TARGET_OS_IPHONE
 
-//@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #define View UIView
 
-#else
-
-@import AppKit;
-#define View NSView
-
-#endif
 
 /**
  *  `NBJMergeLayout` is a view that, when added to a view, adds all of its
